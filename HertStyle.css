@@ -1,39 +1,45 @@
-body{
+body {
     overflow-x: hidden;
     margin: 0;
     position: relative;
 }
-.header{
-    width:100%;
-    height:85px;
+
+.header {
+    width: 100%;
+    height: 85px;
     background-color: #203232;
-    position: relative; 
+    position: relative;
     overflow: hidden;
 }
-.img1{
-    width:15%;
+
+.img1 {
+    width: 15%;
     height: 35px;
     margin-top: 25px;
-    margin-left:25px;
+    margin-left: 25px;
     position: absolute;
 }
-.b1{
+
+.b1 {
     background-color: transparent;
     border: transparent;
     margin-left: 90%;
     margin-bottom: 30px;
     margin-top: 35px;
-position: absolute;
+    position: absolute;
 
 }
-.b1:hover{
+
+.b1:hover {
     padding: 20px;
-color: #333b3b;
+    color: #333b3b;
 }
-.img3{
+
+.img3 {
     width: 30%;
 }
-.body{
+
+.body {
     background-image: url('Images/Online-student-on-a-laptop.jpg');
     width: 100%;
     height: 75%;
@@ -41,277 +47,319 @@ color: #333b3b;
     position: relative;
     background-size: cover;
 }
-.text{
-    width:22%;
-    height: 30%;
-    display: inline-block;
-    font-style: normal;
-    font-size: xx-large;
+
+.text {
     position: absolute;
-margin-left: 72%;
-margin-top: 100px;
-background-color:#203232;
-background-size: contain;
-position:absolute;
+    margin-left: 72%;
+    margin-top: 100px;
+    background-color: #203232;
+    background-size: contain;
+    position: absolute;
 }
-.text2{
+
+.text2 {
+    font-size: 51px;
     width: 100%;
     display: inline-block;
     text-align: center;
     color: white;
     text-align: center;
+    font-family: helvetica;
 }
-.text3{
-    position:absolute;
-    font-size: xx-large;
-    margin-top: 18%;
+
+.text3 {
+    position: absolute;
+    margin-top: 20%;
     margin-left: 60%;
 }
-.text4{
+
+.text4 {
+    font-family: helvetica; 
     color: white;
+    font-size: 28px;
 }
-.b2{
+
+.b2 {
     background-color: transparent;
-border: transparent ;
+    border: transparent;
     margin-left: 90%;
     margin-top: 27px;
     position: absolute;
 }
-.b3{
+
+.b3 {
     position: absolute;
     margin-left: 68%;
     margin-top: 27%;
 }
-.b4{
+
+.b4 {
     border: transparent;
     color: white;
-    background-color:#9c5fb5;
-    font-size:18px;
-     width: 175px;
-     height: 60px;
-     background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
-     background-size: 200%;
-     transition: .3s ease-out;
+    background-color: #9c5fb5;
+    font-size: 18px;
+    width: 175px;
+    height: 60px;
+    background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
 }
-.b4:hover{
+
+.b4:hover {
     text-decoration: underline;
     background-position: left;
 }
- .b5{
+
+.b5 {
     border: transparent;
     color: white;
-    background-color:#9c5fb5;
-    font-size:18px;
-     width: 175px;
-     height: 60px;
-     background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
-     background-size: 200%;
-     transition: .3s ease-out;
- }   
- .b6{
+    background-color: #9c5fb5;
+    font-size: 18px;
+    width: 175px;
+    height: 60px;
+    background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
+}
+
+.b6 {
     position: absolute;
     margin-left: 83%;
     margin-top: 27%;
- }
- .b5:hover{
+}
+
+.b5:hover {
     text-decoration: underline;
     background-position: left;
- }
- .searchbar{
+}
+
+.searchbar {
     width: 100%;
     background-color: #203232;
     position: absolute;
     height: 89px;
     margin-top: 38%;
- }
- .search{
+}
+
+.search {
     position: absolute;
     width: 100%;
     height: 100px;
     margin-top: 15px;
     margin-left: 14.5%;
- }
- .bar{
-    width: 70%;
-height: 60px; 
 }
-.searchIcon{
-position: absolute;
+
+.bar {
+    width: 70%;
+    height: 60px;
+}
+
+.searchIcon {
+    position: absolute;
     padding-bottom: 50px;
 
 }
-.img4{
+
+.img4 {
     height: 80px;
     width: 100%;
-    position:absolute;
+    position: absolute;
     margin-top: 49%;
     margin-left: 148px;
 }
-.img5{
+
+.img5 {
     width: 25%;
     transition: transform .5s
-    
 }
-.img5:hover{
-    transform: scale(1.1); 
+
+.img5:hover {
+    transform: scale(1.1);
 }
-.img6{
+
+.img6 {
     position: absolute;
     width: 100%;
-    margin-top:49%;
+    margin-top: 49%;
     margin-left: 37.5%;
 }
-.img7{
-    width:25%;
+
+.img7 {
+    width: 25%;
     transition: transform .5s
 }
-.img7:hover{
-    transform: scale(1.1); 
+
+.img7:hover {
+    transform: scale(1.1);
 }
-.img9{
-width: 25%;
-transition: transform .5s
+
+.img9 {
+    width: 25%;
+    transition: transform .5s
 }
-.img9:hover{
-    transform: scale(1.1); 
+
+.img9:hover {
+    transform: scale(1.1);
 }
-.img8{
+
+.img8 {
     position: absolute;
-    width:100% ;
+    width: 100%;
     margin-top: 49%;
     margin-left: 64%;
 }
-.text5{
+
+.text5 {
     position: absolute;
     font-size: large;
-    margin-top:68.5%;
+    margin-top: 68.5%;
     margin-left: 175px;
 }
-.text6{
+
+.text6 {
     position: absolute;
     margin-top: 74%;
-margin-left: 175px;
-font-size: 16px;
-font-family:helvetica ;
+    margin-left: 175px;
+    font-size: 16px;
+    font-family: helvetica;
 }
-.text7{
+
+.text7 {
     position: absolute;
     margin-top: 68.5%;
     margin-left: 40%;
     font-size: large;
 }
-.text8{
+
+.text8 {
     position: absolute;
-    font-family:helvetica ;
+    font-family: helvetica;
     font-size: 16px;
     margin-top: 74%;
     margin-left: 40%;
 }
-.text9{
+
+.text9 {
     position: absolute;
     font-size: large;
     margin-top: 68.5%;
     margin-left: 66.1%;
 }
-.text10{
-position: absolute;
-font-family:helvetica ;
-font-size: 16px;
-margin-top: 74%;
-margin-left: 66.2%;
+
+.text10 {
+    position: absolute;
+    font-family: helvetica;
+    font-size: 16px;
+    margin-top: 74%;
+    margin-left: 66.2%;
 }
-.b7{
-    position:absolute;
+
+.b7 {
+    position: absolute;
     margin-left: 175px;
     margin-top: 78.5%;
 }
-.b8{
+
+.b8 {
     border: transparent;
     color: white;
-    background-color:#9c5fb5;
-    font-size:18px;
-     width: 175px;
-     height: 60px;
-     background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
-     background-size: 200%;
-     transition: .3s ease-out;
+    background-color: #9c5fb5;
+    font-size: 18px;
+    width: 175px;
+    height: 60px;
+    background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
 }
-.b8:hover{
+
+.b8:hover {
     text-decoration: underline;
     background-position: left;
 }
-.b9{
+
+.b9 {
     position: absolute;
     margin-left: 40%;
     margin-top: 78.5%;
 }
-.b10{
+
+.b10 {
     border: transparent;
     color: white;
-    background-color:#9c5fb5;
-    font-size:18px;
-     width: 175px;
-     height: 60px;
-     background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
-     background-size: 200%;
-     transition: .3s ease-out;
+    background-color: #9c5fb5;
+    font-size: 18px;
+    width: 175px;
+    height: 60px;
+    background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
 }
-.b10:hover{
+
+.b10:hover {
     text-decoration: underline;
     background-position: left;
 }
-.b11{
-position: absolute;
-margin-left: 66.2%;
-margin-top: 78.5%;
-}
-.b12{
-    border: transparent;
-    color: white;
-    background-color:#9c5fb5;
-    font-size:18px;
-     width: 175px;
-     height: 60px;
-     background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
-     background-size: 200%;
-     transition: .3s ease-out;
-}
-.b12:hover{
-    text-decoration: underline;
-    background-position: left;
-}
-.page3{
+
+.b11 {
     position: absolute;
-    width:100%;
+    margin-left: 66.2%;
+    margin-top: 78.5%;
+}
+
+.b12 {
+    border: transparent;
+    color: white;
+    background-color: #9c5fb5;
+    font-size: 18px;
+    width: 175px;
+    height: 60px;
+    background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
+}
+
+.b12:hover {
+    text-decoration: underline;
+    background-position: left;
+}
+
+.page3 {
+    position: absolute;
+    width: 100%;
     height: 130%;
     margin-top: 92%;
     background-color: #9c5fb5;
 }
-.text11{
-position: absolute;
-font-size: 45px;
-font-family: helvetica;
-color: white;
-margin-top: 45px;
-margin-left: 70px;
+
+.text11 {
+    position: absolute;
+    font-size: 45px;
+    font-family: helvetica;
+    color: white;
+    margin-top: 45px;
+    margin-left: 70px;
 }
-.text12{
+
+.text12 {
     position: absolute;
     font-family: helvetica;
     font-size: 50px;
     margin-top: 149%;
     margin-left: 34%;
 }
-.img10{
+
+.img10 {
     position: absolute;
     height: 100%;
     margin-top: 205px;
     margin-left: 30px;
 }
-.img11{
+
+.img11 {
     height: 70%;
 }
-.text13{
+
+.text13 {
     position: absolute;
     font-size: 23px;
     font-family: helvetica;
@@ -319,64 +367,48 @@ margin-left: 70px;
     margin-left: 70%;
     margin-top: 465px;
 }
-.b13{
+
+.b13 {
     position: absolute;
     margin-left: 70%;
     margin-top: 600px;
 }
-.b14{
+
+.b14 {
     font-size: 18px;
     color: white;
-    font-family:helvetica ;
+    font-family: helvetica;
     background-color: transparent;
     border: transparent;
     transition: color 0.5s;
 }
-.b14:hover{
+
+.b14:hover {
     text-decoration: underline;
     color: black;
 }
-.img12{
+
+.img12 {
     position: absolute;
     height: 100%;
     margin-top: 155%;
     margin-left: 540px;
 }
-.img13{
+
+.img13 {
     height: 80%;
 }
-.b15{
+
+.b15 {
     position: absolute;
     margin-left: 140px;
     margin-top: 155%;
     height: 100px;
 }
-.b16{
+
+.b16 {
     height: 70px;
-    width: 380px;   
-    color: rgb(0, 0, 0);
-    font-family: helvetica;
-    font-size: 19px;
-    border: transparent;
-    padding-right: 175px;
-    background: linear-gradient(to left, rgb(255, 255, 255) 50%, #203232 50%) right;
-    background-size: 200%;
-    transition: .5s ease-out; 
-}
-.b16:hover{
-    color: white;
-text-decoration: underline;
-background-position: left;
-}
-.b17{
-    position: absolute;
-    margin-left: 140px;
-    margin-top: 160%;
-    height: 100px;
-}
-.b18{
-    height: 70px;
-    width: 380px;   
+    width: 380px;
     color: rgb(0, 0, 0);
     font-family: helvetica;
     font-size: 19px;
@@ -386,20 +418,49 @@ background-position: left;
     background-size: 200%;
     transition: .5s ease-out;
 }
-.b18:hover{
+
+.b16:hover {
     color: white;
     text-decoration: underline;
     background-position: left;
 }
-.b19{
+
+.b17 {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 160%;
+    height: 100px;
+}
+
+.b18 {
+    height: 70px;
+    width: 380px;
+    color: rgb(0, 0, 0);
+    font-family: helvetica;
+    font-size: 19px;
+    border: transparent;
+    padding-right: 175px;
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, #203232 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+.b18:hover {
+    color: white;
+    text-decoration: underline;
+    background-position: left;
+}
+
+.b19 {
     position: absolute;
     margin-left: 140px;
     margin-top: 165%;
     height: 100px;
 }
-.b20{
+
+.b20 {
     height: 120px;
-    width: 380px;   
+    width: 380px;
     color: rgb(0, 0, 0);
     font-family: helvetica;
     font-size: 19px;
@@ -409,191 +470,225 @@ background-position: left;
     background-size: 200%;
     transition: .5s ease-out;
 }
-.b20:hover{
+
+.b20:hover {
     color: white;
     text-decoration: underline;
     background-position: left;
 }
-.b21{
+
+.b21 {
     position: absolute;
     margin-top: 175%;
     margin-left: 155px;
 }
-.b22{
+
+.b22 {
     border: transparent;
     color: white;
-    background-color:#9c5fb5;
-    font-size:18px;
-     width: 175px;
-     height: 60px;
-     background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
-     background-size: 200%;
-     transition: .3s ease-out;
+    background-color: #9c5fb5;
+    font-size: 18px;
+    width: 175px;
+    height: 60px;
+    background: linear-gradient(to left, #9c5fb5 50%, rgb(101, 67, 133)50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
 }
-.b22:hover{
+
+.b22:hover {
     text-decoration: underline;
     background-position: left;
 }
-.footer{
+
+.footer {
     position: absolute;
-    width:100%;
+    width: 100%;
     height: 80%;
-    background-color:  #203232;
+    background-color: #203232;
     margin-top: 195%;
 }
-.text14{
-position: absolute;
-color: white;
-font-size: 30px;
-font-family:helvetica ;
-margin-left: 100px;
-margin-top: 50px;
+
+.text14 {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: helvetica;
+    margin-left: 100px;
+    margin-top: 50px;
 }
-.text15{
+
+.text15 {
     position: absolute;
     margin-left: 100px;
     margin-top: 100px;
 }
-.text16{
+
+.text16 {
     color: white;
-    font-family:helvetica;
+    font-family: helvetica;
     font-size: 18px;
     text-decoration: transparent;
-    transition:  text-decoration .2s ease-out;
+    transition: text-decoration .2s ease-out;
 }
-.text16:hover{
+
+.text16:hover {
     text-decoration: underline;
 }
-.text17{
+
+.text17 {
     position: absolute;
     margin-left: 100px;
     margin-top: 145px;
 }
-.text18{
+
+.text18 {
     color: white;
-    font-family:helvetica;
+    font-family: helvetica;
     font-size: 18px;
     text-decoration: transparent;
-    transition:  text-decoration .2s ease-out;
+    transition: text-decoration .2s ease-out;
 }
-.text18:hover{
+
+.text18:hover {
     text-decoration: underline;
 }
-.text19{
-position: absolute;
-margin-left: 100px;
-margin-top: 190px;
-}
-.text20{
-    color: white;
-    font-family:helvetica;
-    font-size: 18px;
-    text-decoration: transparent;
-    transition:  text-decoration .2s ease-out;
-}
-.text20:hover{
-    text-decoration: underline;
-}
-.text21{
-position: absolute;
-margin-left: 100px;
-margin-top: 235px;
-}
-.text22{
-    color: white;
-    font-family:helvetica;
-    font-size: 18px;
-    text-decoration: transparent;
-    transition:  text-decoration .2s ease-out;
-}
-.text22:hover{
-    text-decoration: underline;
-}
-.text23{
+
+.text19 {
     position: absolute;
-color: white;
-font-size: 30px;
-font-family:helvetica ;
-margin-left: 450px;
-margin-top: 50px;
+    margin-left: 100px;
+    margin-top: 190px;
 }
-.text24{
-position: absolute;
-margin-left: 450px;
-margin-top:100px ;
-}
-.text25{
+
+.text20 {
     color: white;
-    font-family:helvetica;
+    font-family: helvetica;
     font-size: 18px;
     text-decoration: transparent;
-    transition:  text-decoration .2s ease-out;
+    transition: text-decoration .2s ease-out;
 }
-.text25:hover{
+
+.text20:hover {
     text-decoration: underline;
 }
-.text26{
+
+.text21 {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 235px;
+}
+
+.text22 {
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+    text-decoration: transparent;
+    transition: text-decoration .2s ease-out;
+}
+
+.text22:hover {
+    text-decoration: underline;
+}
+
+.text23 {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: helvetica;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.text24 {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.text25 {
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+    text-decoration: transparent;
+    transition: text-decoration .2s ease-out;
+}
+
+.text25:hover {
+    text-decoration: underline;
+}
+
+.text26 {
     position: absolute;
     margin-left: 450px;
     margin-top: 145px;
 }
-.text27{
+
+.text27 {
     color: white;
-    font-family:helvetica;
+    font-family: helvetica;
     font-size: 18px;
     text-decoration: transparent;
-    transition:  text-decoration .2s ease-out;
+    transition: text-decoration .2s ease-out;
 }
-.text27:hover{
+
+.text27:hover {
     text-decoration: underline;
 }
-.text28{
+
+.text28 {
     position: absolute;
     margin-left: 450px;
     margin-top: 190px;
 }
-.text29{
+
+.text29 {
     color: white;
-    font-family:helvetica;
+    font-family: helvetica;
     font-size: 18px;
     text-decoration: transparent;
-    transition:  text-decoration .2s ease-out;
+    transition: text-decoration .2s ease-out;
 }
-.text29:hover{
+
+.text29:hover {
     text-decoration: underline;
 }
-.text30{
+
+.text30 {
     position: absolute;
     margin-left: 450px;
     margin-top: 235px;
 }
-.text31{
+
+.text31 {
     color: white;
-    font-family:helvetica;
+    font-family: helvetica;
     font-size: 18px;
     text-decoration: transparent;
-    transition:  text-decoration .2s ease-out;
+    transition: text-decoration .2s ease-out;
 }
-.text31:hover{
+
+.text31:hover {
     text-decoration: underline;
 }
-.text32{
+
+.text32 {
     position: absolute;
     color: white;
     font-size: 30px;
-    font-family:helvetica ;
+    font-family: helvetica;
     margin-left: 750px;
     margin-top: 50px;
 }
-.text33{
-position: absolute;
-margin-left: 750px;
-font-size: 18px;
-color: white;
-font-family: helvetica;
-margin-top: 100px;
+
+.text33 {
+    position: absolute;
+    margin-left: 750px;
+    font-size: 18px;
+    color: white;
+    font-family: helvetica;
+    margin-top: 100px;
 }
-.text34{
+
+.text34 {
     position: absolute;
     margin-left: 750px;
     font-size: 18px;
@@ -601,17 +696,20 @@ margin-top: 100px;
     font-family: helvetica;
     margin-top: 145px;
 }
-.text35:hover{
+
+.text35:hover {
     text-decoration: underline;
 }
-.text35{
+
+.text35 {
     color: white;
-    font-family:helvetica;
+    font-family: helvetica;
     font-size: 18px;
     text-decoration: transparent;
-    transition:  text-decoration .2s ease-out;
+    transition: text-decoration .2s ease-out;
 }
-.text36{
+
+.text36 {
     position: absolute;
     margin-left: 750px;
     font-size: 18px;
@@ -619,17 +717,20 @@ margin-top: 100px;
     font-family: helvetica;
     margin-top: 190px;
 }
-.text37:hover{
+
+.text37:hover {
     text-decoration: underline;
 }
-.text37{
+
+.text37 {
     color: white;
-    font-family:helvetica;
+    font-family: helvetica;
     font-size: 18px;
     text-decoration: transparent;
-    transition:  text-decoration .2s ease-out;
+    transition: text-decoration .2s ease-out;
 }
-.text38{
+
+.text38 {
     position: absolute;
     margin-left: 750px;
     font-size: 18px;
@@ -637,29 +738,34 @@ margin-top: 100px;
     font-family: helvetica;
     margin-top: 235px;
 }
-.text39{
+
+.text39 {
     color: white;
-    font-family:helvetica;
+    font-family: helvetica;
     font-size: 18px;
     text-decoration: transparent;
-    transition:  text-decoration .2s ease-out;
+    transition: text-decoration .2s ease-out;
 }
-.text39:hover{
+
+.text39:hover {
     text-decoration: underline;
 }
-.text40{
+
+.text40 {
     position: absolute;
     color: white;
     font-size: 30px;
-    font-family:helvetica ;
+    font-family: helvetica;
     margin-left: 1030px;
     margin-top: 50px;
 }
-.text41{
+
+.text41 {
     position: absolute;
-    margin-left:999 ;
+    margin-left: 999;
     margin-top: 100px;
 }
+
 @font-face {
     font-family: helvetica;
     src: url(HelveticaNowText-Medium.ttf);
